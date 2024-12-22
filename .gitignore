@@ -1,0 +1,34 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+
+# Django-specific files
+db.sqlite3            # Exclude SQLite database (if used for development)
+*.log                 # Log files
+staticfiles/          # Collected static files (optional; see below)
+
+# Environment variables and secrets
+.env                  # Environment variable file (e.g., for sensitive settings)
+
+# OS-specific files
+.DS_Store             # macOS metadata files
+Thumbs.db             # Windows thumbnail cache
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp                 # Vim swap files
+
+# Test coverage and reports
+coverage/
+*.cover
+.hypothesis/
+
+# Package management
+pip-log.txt
+pip-delete-this-directory.txt
